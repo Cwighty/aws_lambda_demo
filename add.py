@@ -9,7 +9,7 @@ def post_request(number1, number2):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Send numbers to the API.")
+    parser = argparse.ArgumentParser(description="Add numbers in the cloud")
     parser.add_argument("number1", type=int, help="The first number")
     parser.add_argument("number2", type=int, help="The second number")
 
