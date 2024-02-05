@@ -16,7 +16,7 @@
 
 ## Pros
 
-- No need to manage servers
+- No need to manage servers / logging / monitoring / scaling / infrastructure
 - Pay per use
 - Easy to scale
 - Many triggers available
@@ -25,7 +25,8 @@
 
 - Limited languages
 - Limited libraries
-- Not good for long running processes
+- Processing limits
+- Cold start
 - Don't try and make an entire application with lambda functions
 
 ### Scenarios
